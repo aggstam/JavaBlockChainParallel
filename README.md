@@ -9,7 +9,7 @@ Note: project requires *java* to be installed.
 <br>
 External jar gson-2.8.2 is provided
 
-# Usage
+## Usage
 First we compile the project:
 ```
 % javac -cp libs/gson-2.8.2.jar src/**/*.java -d bin
@@ -19,7 +19,7 @@ Then we can execute:
 % java -cp libs/gson-2.8.2.jar:.:bin com.blockchain.Main
 ```
 
-# Execution example
+## Execution example
 ```
 ❯ java -cp libs/gson-2.8.2.jar:.:bin com.blockchain.Main
 Jan 22, 2023 4:43:34 PM com.blockchain.Main main
